@@ -184,9 +184,11 @@
         case 0x49:
         case 0x4D:
             return @"tiff";
+        default:
+            return @"webp";
     }
     return nil;
-}
+}W
 
 
 -(UIView *) viewForZoomingInScrollView:(UIScrollView *)inScroll {
