@@ -188,7 +188,7 @@
             return @"webp";
     }
     return nil;
-}W
+}
 
 
 -(UIView *) viewForZoomingInScrollView:(UIScrollView *)inScroll {
